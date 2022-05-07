@@ -48,7 +48,6 @@ struct LandmarkDetail: View {
 
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetail(landmark: landmarks[0])
-            .previewDevice("iPhone 13")
+        LandmarkDetail(landmark: ModelData().landmarks[0])
     }
 }
